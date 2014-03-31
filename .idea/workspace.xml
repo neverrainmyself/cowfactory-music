@@ -472,7 +472,7 @@
       <file leaf-file-name="MusicRepository.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/MusicRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="282" column="49" selection-start="11157" selection-end="11157" vertical-scroll-proportion="0.4074074">
+            <state line="282" column="48" selection-start="11157" selection-end="11157" vertical-scroll-proportion="0.4074074">
               <folding />
             </state>
           </provider>
@@ -1330,7 +1330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/MusicRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="49" selection-start="11157" selection-end="11157" vertical-scroll-proportion="0.4074074">
+        <state line="282" column="48" selection-start="11157" selection-end="11157" vertical-scroll-proportion="0.4074074">
           <folding />
         </state>
       </provider>
