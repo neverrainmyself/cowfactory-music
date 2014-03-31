@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>/intercept*</pattern>
+        <pattern>/defaultmustics*</pattern>
+        <pattern>/top100*</pattern>
+        <pattern>/js/*</pattern>
+        <pattern>/img/*</pattern>
+        <pattern>/css/*</pattern>
+        <pattern>/fonts/*</pattern>
+        <pattern>/next*</pattern>
+        <!--<pattern>/detail*</pattern>-->
+    </excludes>
+    <decorator name="basic-theme" page="_main.jsp">
+        <pattern>*</pattern>
+    </decorator>
+</decorators>

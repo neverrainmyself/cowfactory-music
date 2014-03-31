@@ -1,0 +1,124 @@
+.overlay {
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 900;
+    background-color: rgba(255,255,255,0.97);
+    font-family: "Microsoft Yahei";
+}
+
+
+.overlay:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+.overlay-dialog-confirm {
+    text-align: center;
+}
+
+.overlay-dialog {
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    overflow: hidden;
+    max-width: 580px;
+    -webkit-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -o-transform-origin: bottom center;
+    transform-origin: bottom center;
+    -webkit-animation: scale-fade 300ms forwards cubic-bezier(0.8,0.02,0.45,0.91);
+    -moz-animation: scale-fade 300ms forwards cubic-bezier(0.8,0.02,0.45,0.91);
+    -ms-animation: scale-fade 300ms forwards cubic-bezier(0.8,0.02,0.45,0.91);
+    -o-animation: scale-fade 300ms forwards cubic-bezier(0.8,0.02,0.45,0.91);
+    animation: scale-fade 300ms forwards cubic-bezier(0.8,0.02,0.45,0.91);
+    padding: 40px;
+}
+
+.overlay-title {
+    color: #333332;
+    font-size: 32px;
+    line-height: 1.1;
+}
+.overlay-content {
+    color: #666665;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    position: relative;
+    height: 38px;
+    line-height: 37px;
+    padding: 0 16px;
+    border: 0;
+    outline: 0;
+    color: #8e8e8c;
+    background: rgba(0,0,0,0);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #dededc;
+    vertical-align: bottom;
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 999em;
+    -moz-border-radius: 999em;
+    border-radius: 999em;
+    -webkit-transition: .1s background-color,0.1s border-color,0.1s color;
+    -moz-transition: .1s background-color,0.1s border-color,0.1s color;
+    -ms-transition: .1s background-color,0.1s border-color,0.1s color;
+    -o-transition: .1s background-color,0.1s border-color,0.1s color;
+    transition: .1s background-color,0.1s border-color,0.1s color;
+}
+
+.btn-primary, .btn-toggle {
+    border-color: #a9d8b2;
+}
+
+.btn-primary, .btn-primary.btn-link, .btn-primary .icons:before, .btn-toggle, .btn-toggle .icons:before {
+    color: #57ad68;
+}
+
+.overlay-actions .btn:nth-child(2) {
+    margin-left: 10px;
+}
+
+.profile {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 6px;
+    background: #000000;
+}
+
+.profile img {
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+
